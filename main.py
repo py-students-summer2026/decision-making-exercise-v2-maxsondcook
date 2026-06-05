@@ -37,7 +37,7 @@ def main():
     # print out the total cost of a face masks purchase
     print()  # line break!
     total = get_discount()
-    print("The total cost of your face masks is: {}.".format(total))
+    print(f"The total cost of your face masks is: ${total:,.0f}.")
 
     # print out whether it's currently a leap year
     print()
